@@ -1,0 +1,100 @@
+### 1.4.0 - Mar 03 2026
+* Update - Customizer optimization
+* Update - German language file
+* Update - Arabic language file
+* Update - French language file
+* Update - Italian language file
+* Update - Japanese language file
+* Update - Polish language file
+* Update - Portugese language file
+* Update - Spanish language file
+* Update - Dutch language file
+* Update - Russian language file
+* Update - Ukranian language file
+* Update - Swedish language file 
+
+### 1.3.10 - Feb 16, 2026
+* Update - Updated German language file.
+* Update - Updated Arabic language file.
+* Update - Updated French language file.
+* Update - Updated Italian language file.
+* Update - Updated Japanese language file.
+* Update - Updated Polish language file.
+* Update - Updated Portuguese language file.
+* Update - Updated Spanish language file.
+* Update - Updated Dutch language file.
+* Update - Updated Russian language file.
+* Update - Updated Hindi language file.
+* Update - Updated Nepali language file.
+* Improvement - Updated comment reply link styling and behavior.
+* Fix - Maintained proper alignment for Contact Form 7 checkbox inputs and labels.
+* Improvement - Updated list (ul, ol, li) styling for better content readability.
+* Improvement - Added theme.json values for buttons and titles based on theme design standards.
+* Improvement - Optimized word count display logic for better site performance.
+* Improvement - Updated various frontend styles for improved consistency.
+
+### 1.3.0 - Dec 12, 2025
+* Update - Added improved Minutes Read feature using stored post meta for faster performance.
+* Update - Added singular/plural translation-ready string support for reading time (“1 minute read” / “X minutes read”).
+* Update - Added automatic reading-time calculation on post save for accurate and lightweight frontend output.
+* Update - Improved compatibility with WordPress 6.9 core reading-time features.
+* Update - Ensured full WordPress.org guideline compliance by keeping the feature purely presentational.
+* Update - Added new Customizer toggle under Customize ▸ Theme Options ▸ Minutes Read Count.
+
+### 1.2.0 - Dec 05, 2025
+* New - Added separate link color option for Site Light Mode in the Customizer.
+* New - Added separate link hover color option for Site Light Mode in the Customizer.
+* New - Added separate link color option for Site Dark Mode in the Customizer.
+* New - Added separate link hover color option for Site Dark Mode in the Customizer.
+* New - All new color controls are available under Customize ▸ Colors ▸ Primary Color Section.
+* Update - Enabled main navigation Light/Dark mode toggle for improved reading comfort.
+* Update - General style and color refinements for better visual consistency.
+
+### 1.1.5 - Nov 30, 2025
+* Update - Added toggle to show current date in the top bar.
+* Update - Added toggle to show current time in the top bar.
+* Update - Added current time format selector (12-hour, 24-hour, or WordPress time format).
+* Update - Implemented live-running JavaScript clock for 12-hour and 24-hour formats in the Customizer preview.
+* Update - Improved date and time color handling for light/dark modes.
+* Update - Improved date and time color compatibility with top bar background color settings.
+* Update - Added new controls under Customize ▸ Header Builder ▸ Top Header Section.
+* Update - Grouped, revised, and improved header background controls for better usability.
+
+### 1.1.4 - Nov 27, 2025
+* New - Added AJAX-powered live search with customizable result dropdown.
+* New - Improved accessibility: ARIA roles, keyboard navigation (Arrow Up/Down, Enter), and screen reader support for live search results.
+* New - "Searching..." display issue in live search.
+* New - SEO-friendly live search output with proper post titles, permalinks, and thumbnails.
+* New   - Corrected checkbox sanitizer for "Ajax Results Dropdown" to ensure the feature works as expected.
+* New - Debounced search input for smoother user experience and reduced AJAX calls.
+* New - View all results link added below live search results.
+* New - Enhanced HTML structure for accessibility and semantic markup.
+
+### 1.1.3 - Nov 24, 2025
+* Update - Improved spacing and gap consistency across all blocks within post content.
+* Update - Improved post meta spacing and alignment on single post layouts.
+* Update - Enhanced WooCommerce CSS for better layout consistency and visual refinement.
+
+### 1.1.2 - Nov 20, 2025
+* Update - Improved spacing and gap consistency across all blocks within post content.
+* Update - Refined spacing for both nested and non-nested ordered and unordered lists for better readability.
+* Update - Enhanced spacing and layout for YouTube embed blocks within post content.
+* Update - Emoji option is now enabled by default and can be changed from Customizing > Theme Options > Global Settings.
+* Update - Noto Sans is now set as the default primary font and can be modified from Customizing > Theme Options > Fonts & Typography.
+* Update - Improved post meta spacing and alignment on single post layouts.
+* Update - Enhanced WooCommerce CSS for better layout consistency and visual refinement.
+
+
+### 1.1.1 - Nov 17, 2025
+* New - Introduced a redesigned default main banner featuring one main news slider, two editor’s pick thumbnails, and a trending vertical slider displaying 5 posts.
+* New - Added additional banner layout options including a standalone main slider and two vertical sliders for editor’s picks and trending news.
+* New - Retained the previous default banner layout (slider + post grid) as an optional layout for users.
+* New - Added a total of 3 layout styles and 3 ordering options for main banner components, offering 9 possible main banner combinations in the free version.
+* Update - Added new main banner customization options under Customizing > Main Banner Options > Main Banner.
+* New - Introduced secondary font selection in Customizer, allowing users to set primary and secondary site-wide typography.
+* New - Added Noto Sans font to the theme bundle as a universal, GDPR-friendly local font option.
+* New - Included 4 Google Fonts in the local theme bundle to improve GDPR compliance and reduce external requests.
+* Update - Added new font customization options under Customizing > Theme Options > Fonts & Typography.
+
+### 1.0.0 - Nov 05 2025 
+* Initial release
