@@ -4,7 +4,7 @@ Theme URI: https://afthemes.com/products/reviewnews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
 Description: ReviewNews is a flexible WordPress theme designed for news websites, online magazines, blogs, business sites, and eCommerce projects. It includes a customizable header and footer builder compatible with the Block Editor (Gutenberg) and widely used page builders such as Elementor, Divi, and Brizy, allowing layout customization without code. The theme provides more than 50 starter site layouts, over 30 custom widgets, advanced block patterns, flexible layout options, AMP support, and WooCommerce compatibility. ReviewNews is developed following WordPress coding standards and supports responsive layouts, accessibility considerations, SEO-friendly structure, GDPR-related requirements, multilingual and RTL languages, making it suitable for a wide range of content-focused websites. Explore all features at https://afthemes.com/products/reviewnews
-Version: 1.4.2
+Version: 1.4.4
 Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 6.9
@@ -5826,6 +5826,19 @@ body.aft-dark-mode .archive-layout-grid .no-post-image .read-bg-img,
 body.aft-dark-mode .featured-posts.reviewnews-customizer .no-post-image .read-bg-img,
 body.aft-dark-mode .grid-layout.reviewnews-customizer .no-post-image .read-bg-img,
 body.aft-dark-mode .latest-posts-grid .no-post-image .read-bg-img {
+    height: unset !important;
+    background: transparent;
+    padding-top: 0;
+    display: flex;
+    aspect-ratio: unset !important;
+    flex-direction: column;
+}
+
+body.aft-default-mode .archive-layout-list .no-post-image .read-bg-img,
+body.aft-default-mode .archive-layout-grid .no-post-image .read-bg-img,
+body.aft-default-mode .featured-posts.reviewnews-customizer .no-post-image .read-bg-img,
+body.aft-default-mode .grid-layout.reviewnews-customizer .no-post-image .read-bg-img,
+body.aft-default-mode .latest-posts-grid .no-post-image .read-bg-img {
     height: unset !important;
     background: transparent;
     padding-top: 0;
