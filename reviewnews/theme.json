@@ -39,6 +39,36 @@
                     "fontSize": "0.75rem",                    
                     "fontWeight": "700",
                     "letterSpacing": "0.05em"
+                },
+                "core/table": {
+                    "border": {
+                        "color": "rgba(0, 0, 0, 0.1)",
+                        "style": "solid",
+                        "width": "1px"
+                    },
+                    "typography": {
+                        "fontSize": "0.9rem"
+                    },
+                    "elements": {
+                        "caption": {
+                            "typography": { "fontSize": "0.8rem", "fontStyle": "italic" }
+                        }
+                    }
+                }
+            },
+            "core/table": {
+                "border": {
+                    "color": "rgba(0, 0, 0, 0.1)",
+                    "style": "solid",
+                    "width": "1px"
+                },
+                "typography": {
+                    "fontSize": "0.9rem"
+                },
+                "elements": {
+                    "caption": {
+                        "typography": { "fontSize": "0.8rem", "fontStyle": "italic" }
+                    }
                 }
             }
         },
