@@ -36,6 +36,11 @@ if ( ! function_exists( 'reviewnews_recommended_plugins' ) ) :
                 'required' => false,
             ),
             array(
+                'name'     => esc_html__( 'AF Companion', 'reviewnews' ),
+                'slug'     => 'af-companion',
+                'required' => false,
+            ),
+            array(
                 'name'     => esc_html__( 'Free Live Chat using 3CX', 'reviewnews' ),
                 'slug'     => 'wp-live-chat-support',
                 'required' => false,
