@@ -22,7 +22,7 @@ require get_template_directory().'/inc/review.php';
 /**
  * Theme upgrade.
  */
-// require get_template_directory().'/inc/upgrade.php';
+ require get_template_directory().'/inc/upgrade.php';
 
  /**
  * admin dashboard

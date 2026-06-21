@@ -176,14 +176,16 @@ class ReviewNews_Upgrade_Notice extends ReviewNews_Notice {
 
                 printf(
                     /* translators: 1: current user display name, 2: theme name link, 3: discount coupon code, 4: discount percentage */
-                    wp_kses_post__(
-                        '%1$s 🎁 Hope you\'re loving our free %2$s theme! Dive into the festive spirit with an exclusive gift: %4$s premium features! Use code %3$s at checkout. Wishing you a season filled with joyous holidays and even happier savings! 🎄✨',
-                        'reviewnews'
+                    wp_kses_post(
+                        __(
+                            '%1$s 🎁 Hope you\'re loving our free %2$s theme! Dive into the festive spirit with an exclusive gift: %4$s premium features! Use code %3$s at checkout. Wishing you a season filled with joyous holidays and even happier savings! 🎄✨',
+                            'reviewnews'
+                        )
                     ),
-                    '<h3> Greetings ' . esc_html( $current_user->display_name ) . '! Ready for an Upgrade? Unlock a Special Treat: 30% Off!</h3>',
-                    '<a href="' . $theme_url . '">ReviewNews</a>',
-                    '<code class="coupon-code">AFT30</code>',
-                    '<strong>30% off</strong>'
+                    '<h3> Greetings ' . esc_html( $current_user->display_name ) . '! Ready for an Upgrade? Unlock a Special Treat: 50% Off!</h3>',
+                    '<a href="' . esc_url( $theme_url ) . '">ReviewNews</a>',
+                    '<code class="coupon-code">ReadyMadeWebsites</code>',
+                    '<strong>50% off</strong>'
                 );
                 ?>
             </p>

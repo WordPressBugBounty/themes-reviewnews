@@ -62,7 +62,7 @@ if (!function_exists('reviewnews_main_menu_nav_section')) :
     <div class="navigation-container">
       <nav class="main-navigation clearfix">
 
-        <span class="toggle-menu" >
+        <span class="toggle-menu">
           <a href="#" role="button" class="aft-void-menu" aria-controls="primary-menu" aria-expanded="false">
             <span class="screen-reader-text">
               <?php esc_html_e('Primary Menu', 'reviewnews'); ?>
@@ -98,8 +98,14 @@ if (!function_exists('reviewnews_load_search_form_section')) :
   ?>
     <div class="af-search-wrap">
       <div class="search-overlay" aria-label="<?php esc_attr_e('Open search form', 'reviewnews') ?>">
-        <a href="#" title="Search" class="search-icon" aria-label="<?php esc_attr_e('Open search form', 'reviewnews') ?>">
-          <i class="fa fa-search"></i>
+        <a href="#"
+          title="Search"
+          class="search-icon"
+          role="button"
+          aria-label="Open search"
+          aria-haspopup="true"
+          aria-expanded="false">
+          <i class="fa fa-search" aria-hidden="true"></i>
         </a>
         <div class="af-search-form">
           <?php get_search_form(); ?>

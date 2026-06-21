@@ -194,11 +194,16 @@ if (!function_exists('reviewnews_afthfb_render_navigation_element')) {
     <div class="navigation-container">
       <nav class="main-navigation clearfix">
         <span class="toggle-menu" aria-controls="primary-menu" aria-expanded="false">
-          <a href="#" role="button" class="aft-void-menu" aria-expanded="false">
+          <a href="#"
+            role="button"
+            class="aft-void-menu"
+            aria-label="<?php esc_attr_e('Toggle Primary Menu', 'reviewnews'); ?>"
+            aria-controls="primary-menu"
+            aria-expanded="false">
             <span class="screen-reader-text">
               <?php esc_html_e('Primary Menu', 'reviewnews'); ?>
             </span>
-            <i class="ham"></i>
+            <i class="ham" aria-hidden="true"></i>
           </a>
         </span>
         <?php

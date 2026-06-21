@@ -54,7 +54,7 @@ class ReviewNews_Theme_Review_Notice {
         $ignored_notice_partially = get_user_meta( $user_id, 'nag_reviewnews_ignore_theme_review_notice_partially_v3', true );
 
         // Return from notice display if conditions are met.
-        if ( ( get_option( 'reviewnews_theme_installed_time_v3' ) > strtotime( '-5 days' ) ) || ( $ignored_notice_partially > strtotime( '-2 days' ) ) || ( $ignored_notice ) ) {
+        if ( ( get_option( 'reviewnews_theme_installed_time_v3' ) > strtotime( '-2 days' ) ) || ( $ignored_notice_partially > strtotime( '-2 days' ) ) || ( $ignored_notice ) ) {
             return;
         }
 
