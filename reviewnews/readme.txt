@@ -1,7 +1,7 @@
 === ReviewNews ===
 Contributors: AF themes
-Tested up to: 6.9
-Stable tag: 1.4.0
+Tested up to: 7.0
+Stable tag: 2.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks
@@ -16,7 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 ReviewNews is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
-ReviewNews WordPress Theme, Copyright 2025 AF themes
+ReviewNews WordPress Theme, Copyright 2026 AF themes
 ReviewNews is distributed under the terms of the GNU GPL v2 or later.
 
 == Description ==
