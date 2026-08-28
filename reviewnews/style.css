@@ -4,10 +4,10 @@ Theme URI: https://afthemes.com/products/reviewnews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
 Description: ReviewNews is a flexible WordPress theme designed for news websites, online magazines, blogs, business sites, and eCommerce projects. It includes a customizable header and footer builder compatible with the Block Editor (Gutenberg) and widely used page builders such as Elementor, Divi, and Brizy, allowing layout customization without code. The theme provides more than 50 starter site layouts, over 30 custom widgets, advanced block patterns, flexible layout options, AMP support, and WooCommerce compatibility. ReviewNews is developed following WordPress coding standards and supports responsive layouts, accessibility considerations, SEO-friendly structure, GDPR-related requirements, multilingual and RTL languages, making it suitable for a wide range of content-focused websites. Explore all features at https://afthemes.com/products/reviewnews
-Version: 2.0.3
+Version: 2.0.4
 Requires at least: 4.0
 Requires PHP: 5.0
-Tested up to: 7.0
+Tested up to: 7.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: reviewnews
@@ -5852,7 +5852,7 @@ body.full-width-content:not(.single-content-mode-boxed) .alignfull{
 .aft-sidebar-wrapper .aft-position-4{order: 4;}
 .header-title-wrapper{border-bottom: none;}
 /*--------------------------------------------------------------
-# wordpress defaults
+# WordPress defaults
 --------------------------------------------------------------*/
 /* =WordPress Core
 -------------------------------------------------------------- */
@@ -6204,7 +6204,7 @@ footer .reviewnews-widget .mc4wp-form-fields input[type="email"]{
 :is(footer, #sidr, #secondary) .widget_mc4wp_form_widget input[type="submit"] {padding: 0;}
 /*mail chimp====================*/
 /*--------------------------------------------------------------
-# wordpress defaults
+# WordPress defaults
 --------------------------------------------------------------*/
 /*comments section====*/
 h2.comments-title {
